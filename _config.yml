@@ -1,7 +1,27 @@
-theme: jekyll-theme-cayman
-title: Cashfree Integration kits
+    
+#theme: jekyll-theme-cayman
+#remote_theme: willianjusten/cards-jekyll-template
+#remote_theme: sharu725/cards
+#remote_theme: benbalter/retlab
+title: Cashfree Engineering
 description: >
    Cashfree integration kits for various platforms
    and programming languages.
 
+permalink: /:title/
+paginate: 16
+paginate_path: /page:num/
 markdown: kramdown
+
+#social
+facebook: http://facebook.com/gocashfree
+twitter: http://twitter.com/@gocashfree
+github: http://github.com/cashfree
+email: techsupoort@gocashfree.com
+
+# Sass style
+sass:
+  style: compressed
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
