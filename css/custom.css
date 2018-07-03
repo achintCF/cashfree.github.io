@@ -1,0 +1,44 @@
+.php {
+    font-size:16px; 
+    background-color:#60D394;
+}
+.python {
+     font-size:16px; 
+     background-color:#AAF683;
+ }
+ .java {
+     font-size:16px;
+     background-color:#FFD97D;
+ }
+ .nodejs {
+     font-size:16px;
+     background-color:#DA7635;
+ }
+ .csharp {
+     font-size:16px;
+     background-color:#E24E1B;
+ }
+.shopify {
+     font-size:16px;
+     background-color:#B8FF83;
+}
+.magento {
+    font-size:16px;
+    background-color:#FF933F;
+}
+.opencart {
+    font-size:16px;
+    background-color:#B4F2E9;
+}
+.others {
+    font-size:16px;
+    background-color:#0B3954;
+}
+.ios {
+    font-size:16px;
+     background-color:#0072BB;
+}
+.android {
+    font-size:16px;
+     background-color:#FF5A5F;
+}
