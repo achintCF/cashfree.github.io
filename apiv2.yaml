@@ -314,7 +314,7 @@ paths:
         "400":
           description: Invalid status value
           
-  /refunds/{order_id}:
+  /refunds?order={order_id}:
     get:
       tags:
         - Refunds
@@ -383,7 +383,7 @@ paths:
         "400":
           description: Invalid status value
 
-  /payments/?order={order_id}:
+  /payments?order={order_id}:
     get:
       tags:
         - Payments
