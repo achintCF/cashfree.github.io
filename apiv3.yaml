@@ -569,6 +569,7 @@ components:
             - $ref:  "#/components/schemas/Wallet"
             - $ref:  "#/components/schemas/Paylater"
             - $ref:  "#/components/schemas/EMI"
+            - $ref:  "#/components/schemas/CashfreeTokenInput"
             
     Order:
       type: object
@@ -879,7 +880,7 @@ components:
         payment_details:
           type: array
           items: {
-            $ref: "#/components/schemas/SavedPaymentToken"
+            $ref: "#/components/schemas/CashfreeToken"
           }
           description: This will save a tokenized payment detail for any successful payment made on this order
 
@@ -899,7 +900,13 @@ components:
           type: boolean
           description: This will save a tokenized payment detail for any successful payment made on this order
     
-    SavedPaymentToken:
+    CashfreeTokenInput:
+      type: object
+      properties:
+        token:
+          type: string
+          
+    CashfreeToken:
       type: object
       properties:
         token:
