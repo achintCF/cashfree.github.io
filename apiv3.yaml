@@ -1,8 +1,8 @@
 openapi: 3.0.0
 info:
-  description: "Cashfree API v2"
+  description: "Cashfree NextGen API"
   version: 0.0.1
-  title: Cashfree API v2
+  title: Cashfree NextGen API
   termsOfService: https://cashfree.com/terms/
   contact:
     email: tech@cashfree.com
